@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Isaac Asimov’s Laws"
+title: "Asimov’s Laws"
 tags: ai
 ---
 
