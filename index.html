@@ -1,130 +1,529 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+    <title>328884443</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+        <!--Meta-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<!-- Wrapper -->
-<div id="wrapper">
+        <!--Page Card for SEO-->
+        <meta property="og:title" content="Art. Simple Clean Portfolio HTML5 Template" />
+        <meta property="og:description" content="Art. Simple Clean HTML5 Template for Creatives, designed by SeaTheme" />
+        <meta property="og:url" content="https://www.uiueux.com/wp/art-entry/html5-entry/" />
+        <meta property="og:site_name" content="Art Simple Clean Portfolio HTML Theme Live Demo Site" />
+        <meta property="og:image" content="https://html5.seatheme.net/art/art-cover.jpg" />
+    	<meta name="twitter:card" content="Art. Simple Clean HTML5 Template for Creatives, designed by SeaTheme" />
+        <meta name="twitter:title" content="Art Simple Clean Portfolio HTML Theme Live Demo Site" />
+        <meta name="twitter:site" content="@uiueux" />
+        <meta name="twitter:image" content="https://html5.seatheme.net/art/art-cover.jpg" />
 
-    <!-- Header -->
-    <header id="header">
-        <h1><a href="index.html"><strong>{{ site.header.title }}</strong> {{ site.header.subtitle }}</a></h1>
-        <nav>
-            <ul>
-                <li><a href="#footer" class="icon fa-info-circle">About</a></li>
-            </ul>
-        </nav>
-    </header>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-114x114.png">
 
-    <!-- Main -->
-    <div id="main">
-        {% for image in site.static_files %}
-        {% if image.path contains 'fulls' %}
-        <article class="thumb">
-            <a href="{{ site.baseurl }}{{ site.image_fulls_loc }}/{{ image.name }}" class="image">
-                <img src="{{ site.baseurl }}{{ site.image_thumbs_loc }}/{{ image.name }}" alt=""
-                     data-name="{{ image.name }}"/></a>
-            <!--<h2></h2>
-            <p></p>-->
-        </article>
-        {% endif %}
-        {% endfor %}
-    </div>
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%7CPoppins%3A300%2C400%7COxygen%3A300%2C400&#038;ver=1.0" rel="stylesheet">
 
-    <!-- Footer -->
-    <footer id="footer" class="panel">
-        <div class="inner split">
-            <div>
-                <section>
-                    <h2>{{ site.footer.name }}</h2>
-                    <p>{{ site.footer.bio }}</p>
-                    <p>{{ site.footer.github }}</p>
-                </section>
-                <section>
-                    <h2>Sponsor</h2>
-                    <div class="ad">
-                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <ins class="adsbygoogle"
-                             style="display:block; text-align:center;"
-                             data-ad-layout="in-article"
-                             data-ad-format="fluid"
-                             data-ad-client="ca-pub-1702577941194110"
-                             data-ad-slot="9823584598"></ins>
-                        <script>
-                            (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>
+        <!-- Bootstrap CSS -->
+        <link rel='stylesheet' href='css/bootstrap.css' type='text/css' media='screen' />
+
+        <!-- Font Icon CSS -->
+        <link rel='stylesheet' href='css/font-awesome.min.css' type='text/css' media='screen' />
+
+        <!-- Owl Carousel Plugin CSS -->
+        <link rel='stylesheet' href='css/owl.carousel.css' type='text/css' media='screen' />
+
+        <!-- Lightbox Plugin CSS -->
+        <link rel='stylesheet' href='css/photoswipe.css' type='text/css' media='screen' />
+
+        <!-- Lightbox Plugin Skin CSS -->
+        <link rel='stylesheet' href='css/skin/photoswipe/default/default-skin.css' type='text/css' media='screen' />
+
+        <!-- Custom Grid CSS -->
+        <link rel='stylesheet' href='css/gridstack.min.css' type='text/css' media='screen' />
+
+         <!-- BM builder CSS -->
+        <link rel='stylesheet' href='css/modules-style.css' type='text/css' media='screen' />
+
+        <!-- Art Theme Main CSS -->
+        <link rel='stylesheet' href='css/style.css' type='text/css' media='screen' />
+
+        <!--Custom style CSS -->
+        <link rel="stylesheet" href="css/custom.css" type="text/css" media='screen'>
+
+        <!-- IE hack -->
+        <!--[if lte IE 9]>
+    	<link rel='stylesheet' id='cssie9'  href='css/ie.css' type='text/css' media='screen' />
+    	<![endif]--> 
+
+	</head>
+  
+    <body class="home08 page pswp-dark-skin responsive-ux navi-show navi-show-center dark-logo ux-hide-menu preload ux-start-hide">
+
+        <div class="wrap-all">
+
+            <!--Page Loading-->
+            <div class="page-loading fullscreen-wrap visible">
+                <div class="page-loading-inn">
+                    <div class="page-loading-transform">
+                        <div class="site-loading-logo"><img alt="Art" class="logo-image" src="img/logo.png"></div>
                     </div>
-                </section>
-                <section>
-                    <h2>Follow me on ...</h2>
-                    <ul class="icons">
-                        {% if site.social_urls.facebook %}
-                            <li>
-                                <a href="{{ site.social_urls.facebook }}" class="icon fa-facebook">
-                                    <span class="label">Facebook</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                        {% if site.social_urls.twitter %}
-                            <li>
-                                <a href="{{ site.social_urls.twitter }}" class="icon fa-twitter">
-                                    <span class="label">Twitter</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                        {% if site.social_urls.instagram %}
-                            <li>
-                                <a href="{{ site.social_urls.instagram }}" class="icon fa-instagram">
-                                    <span class="label">Instagram</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                        {% if site.social_urls.dribbble %}
-                            <li>
-                                <a href="{{ site.social_urls.dribbble }}" class="icon fa-dribbble">
-                                    <span class="label">Dribbble</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                        {% if site.social_urls.github %}
-                            <li>
-                                <a href="{{ site.social_urls.github }}" class="icon fa-github">
-                                    <span class="label">GitHub</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                        {% if site.social_urls.linkedin %}
-                            <li>
-                                <a href="{{ site.social_urls.linkedin }}" class="icon fa-linkedin">
-                                    <span class="label">LinkedIn</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                    </ul>
-                </section>
-                <p class="copyright">
-                    &copy; {{ site.author }}. Design: {{ site.web_design }}
-                </p>
+                </div>
             </div>
-            <div>
-                <section>
-                    <h2>Get in touch</h2>
-                    <form method="post" action="#">
-                        <div class="field half first">
-                            <input type="text" name="name" id="name" placeholder="Name"/>
+
+            <!--Audio Player-->
+            <div id="jquery_jplayer" class="jp-jplayer"></div>
+
+            <!--Main wrap-->
+            <div id="wrap-outer">
+
+                <!--Expanded Menu Panel-->
+                <div id="menu-panel">
+
+                    <div class="menu-panel-inn fullscreen-wrap">
+                     
+                        <nav id="navi">
+
+                            <div id="navi-wrap">
+
+                                <ul class="menu clearfix"> 
+                                    <li class="menu-item"><a href="page-info.html">Info</a></li>
+                                </ul>
+
+                            </div><!--End #navi_wrap-->
+                        </nav>
+
+                        <div id="menu-panel-bottom" class="container-fluid"> 
+
+                            <div class="menu-panel-bottom-left col-md-3 col-sm-3 col-xs-5">
+
+                                <div class="menu-panel-bottom-text-link">
+                                     <span class="menu-panel-bottom-text-link-item current">EN</span>
+                                     <span class="menu-panel-bottom-text-link-item"><a href="#">FR</a></span>
+                                </div> 
+
+                            </div><!--End menu-panel-bottom-left-->
+
+                            <div class="menu-panel-bottom-right col-md-9 col-sm-9 col-xs-7">
+
+                                <div class="socialmeida-mobile">
+                                    <ul class="socialmeida clearfix">
+                                        <li class="socialmeida-li">
+                                            <a title="Facebook" href="https://facebook.com/uiueux" class="socialmeida-a">
+                                                <span class="fa fa-facebook"></span>
+                                            </a>
+                                        </li>
+                                                
+                                        <li class="socialmeida-li">
+                                            <a title="Twitter" href="https://twitter.com/Sea_Theme" class="socialmeida-a">
+                                                <span class="fa fa-twitter"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div><!--End menu-panel-bottom-right-->
+
+                        </div><!--End #menu-panel-bottom-->
+
+                    </div>
+
+                </div><!--End #menu-panel-->
+
+    			
+                <!-- Main Content Wrap -->
+        		<div id="wrap">
+
+                    <!-- Main Content : List, text content ... -->
+        	        <div id="content">
+
+                        <div class="content_wrap_outer fullwrap-layout">
+                
+                            <div id="content_wrap" class="">
+
+                                <div class="entry container-fluid">
+
+                                    <div class="bm-builder">
+
+                                        <div class="module col-12 module-id-8000" data-module-col="12">
+
+                                            <div class="module-inside clearfix">
+
+                                                <!--Grid List-->
+                                                <div class="container-masonry ux-portfolio-2col ux-portfolio-full ux-ratio-34 filter-left" data-ratio="1.3333" data-col="2" data-found="6" data-number="-1" data-mod="grid">
+
+                                                    <div class="masonry-list grid-list clearfix grid-list-8000 grid-text-center" data-unique="8000">
+
+                                                        <!--Grid item 1-->
+                                                        <section class="grid-item filter_larsstieger" data-postid="5">
+                                                            <div class="grid-item-inside bm-touch-tab" data-animationend="from-left-translated">
+                                                                <div class="grid-item-con post--5">
+                                                                    <a href="analogic.html" title="ANALOGIC" class="grid-item-mask-link"></a>
+                                                                    <div class="grid-item-con-text">
+                                                                        <h2 class="grid-item-tit">
+                                                                            <a href="analogic.html" title="ANALOGIC" class="grid-item-tit-a">ANALOGIC</a>
+                                                                        </h2>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="brick-content ux-lazyload-wrap" style=" padding-top: 125%;">
+                                                                    <div class="ux-background-img ux-background-img-1st ux-lazyload-bgimg" data-bg="img/analogic/cover.jpeg"></div>
+                                                                    <div class="ux-background-img ux_background_img_hide ux-lazyload-bgimg" data-bg=""></div>
+                                                                </div>
+                                                            </div>
+                                                        </section>
+                                                        <section class="grid-item filter_larsstieger" data-postid="9">
+                                                            <div class="grid-item-inside bm-touch-tab" data-animationend="from-left-translated">
+                                                                <div class="grid-item-con post--9">
+                                                                    <a href="instawall.html" title="INSTAWALL" class="grid-item-mask-link"></a>
+                                                                    <div class="grid-item-con-text">
+                                                                        <h2 class="grid-item-tit">
+                                                                            <a href="instawall.html" title="INSTAWALL" class="grid-item-tit-a">INSTAWALL</a>
+                                                                        </h2>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="brick-content ux-lazyload-wrap" style=" padding-top: 150%;">
+                                                                    <div class="ux-background-img ux-background-img-1st ux-lazyload-bgimg" data-bg="img/instawall/cover.jpeg">
+                                                                    </div>
+                                                                    <div class="ux-background-img ux_background_img_hide ux-lazyload-bgimg" data-bg=""></div>
+                                                                </div>
+                                                            </div>
+                                                        </section>
+                                                        <!--Grid item 2--><!--Grid item 2
+                                                        <section class="grid-item filter_larsstieger" data-postid="7">
+                                                            <div class="grid-item-inside bm-touch-tab" data-animationend="from-left-translated">
+                                                                <div class="grid-item-con post--7">
+                                                                    <a href="fash.html" title="FASH" class="grid-item-mask-link"></a>
+                                                                    <div class="grid-item-con-text">
+                                                                        <h2 class="grid-item-tit">
+                                                                            <a href="fash.html" title="FASH" class="grid-item-tit-a">FASH</a>
+                                                                        </h2>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="brick-content ux-lazyload-wrap" style=" padding-top: 66.666666666667%;">
+                                                                    <div class="ux-background-img ux-background-img-1st ux-lazyload-bgimg" data-bg="img/fash/cover.jpg"></div>
+                                                                    <div class="ux-background-img ux_background_img_hide ux-lazyload-bgimg" data-bg=""></div>
+                                                                </div>
+                                                            </div>
+                                                        </section>
+                                                
+                                                        <section class="grid-item filter_larsstieger" data-postid="50">
+                                                            <div class="grid-item-inside bm-touch-tab" data-animationend="from-left-translated">
+                                                                <div class="grid-item-con post--50">
+                                                                    <a href="moodbrds.html" title="MOODBRDS" class="grid-item-mask-link"></a>
+                                                                    <div class="grid-item-con-text">
+                                                                        <h2 class="grid-item-tit">
+                                                                            <a href="moodbrds.html" title="MOODBRDS" class="grid-item-tit-a">MOODBRDS</a>
+                                                                        </h2>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="brick-content ux-lazyload-wrap" style=" padding-top: 66.666666666667%;"><div class="ux-background-img ux-background-img-1st ux-lazyload-bgimg" data-bg="img/moodbrds/cover.jpeg"></div>
+                                                                <div class="ux-background-img ux_background_img_hide ux-lazyload-bgimg" data-bg=""></div></div>
+                                                            </div>
+                                                        </section>
+                                                           
+                                                        <section class="grid-item filter_larsstieger" data-postid="107">
+                                                            <div class="grid-item-inside bm-touch-tab" data-animationend="from-left-translated">
+                                                                <div class="grid-item-con post--107">
+                                                                    <a href="project-item-standard-grid-title-left3.html" title="AMOREIRA" class="grid-item-mask-link"></a>
+                                                                    <div class="grid-item-con-text">
+                                                                        <h2 class="grid-item-tit">
+                                                                            <a href="project-item-standard-grid-title-left3.html" title="AMOREIRA" class="grid-item-tit-a">AMOREIRA</a>
+                                                                        </h2>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="brick-content ux-lazyload-wrap" style=" padding-top: 100%;">
+                                                                    <div class="ux-background-img ux-background-img-1st ux-lazyload-bgimg" data-bg="https://html5.seatheme.net/art/demo-imgs/17/2017/08/004.jpg"></div>
+                                                                    <div class="ux-background-img ux_background_img_hide ux-lazyload-bgimg" data-bg=""></div>
+                                                                </div>
+                                                            </div>
+                                                        </section>
+
+                                                        <section class="grid-item filter_larsstieger " data-postid="112">
+                                                            <div class="grid-item-inside bm-touch-tab" data-animationend="from-left-translated">
+                                                                <div class="grid-item-con post--112">
+                                                                    <a href="project-item-standard-grid-title-left3.html" title="ICC" class="grid-item-mask-link"></a>
+                                                                    <div class="grid-item-con-text">
+                                                                        <h2 class="grid-item-tit">
+                                                                            <a href="project-item-standard-grid-title-left3.html" title="ICC" class="grid-item-tit-a">ICC</a>
+                                                                        </h2>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="brick-content ux-lazyload-wrap" style="padding-top: 66.642857142857%;">
+                                                                    <div class="ux-background-img ux-background-img-1st ux-lazyload-bgimg" data-bg="https://html5.seatheme.net/art/demo-imgs/17/2017/08/002.jpg"></div><div class="ux-background-img ux_background_img_hide ux-lazyload-bgimg" data-bg=""></div>
+                                                                </div>
+                                                            </div>
+                                                        </section>-->
+
+                                                    </div><!--End masonry-list-->
+
+                                                </div><!--End container-masonry-->
+
+                                            </div><!--End module-inside-->
+
+                                        </div><!--End module-->
+
+                                        <div class="module col-2 col-offset-5 module-id-8001" data-module-col="2">
+
+                                            <div class="module-inside clearfix">
+
+                                                <!--Single image-->
+                                                <div class="single-image-out" data-animationend="fadeined">
+                                                    <div class="single-image">
+                                                        <div class="ux-hover-wrap" style="padding-top: 34%;">
+                                                            <img alt="logo" class="single-image-img lazy" src="img/logo.png" data-src="img/logo.png" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div><!--End bm-builder-->
+
+                                    <div class="clear"></div>
+
+                                </div><!--End entry-->
+
+                            </div><!-- End #content_wrap-->
+
+                        </div><!-- End content_wrap_outer-->
+
+                    </div><!--End #content-->
+
+                    <!--Footer
+                    <footer id="footer" class="foot-one-col">
+                        <div class="footer-info">
+                            <div class="container-fluid">
+                                <div class="footer-menu">
+                                    <ul>
+                                        <li class="menu-item"><a href="page-info.html">Info</a></li>
+                                        <li class="menu-item"><a href="https://1.envato.market/OQmqN">Buy Theme</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <div class="field half">
-                            <input type="text" name="email" id="email" placeholder="Email"/>
+                        <div class="back-top-wrap centered-ux container-fluid"><div id="back-top"></div></div>
+                    </footer>
+
+                </div>-->
+                <!--End #wrap -->
+
+                <!-- Popup for Portfolio Icon on Header -->
+                <div id="related-wrap-popup" class="related-wrap-popup">
+
+                    <span id="related-wrap-popup-close" class="related-wrap-popup-close"></span>
+
+                    <div class="ux-portfolio-ajaxed-list-wrap container ux-portfolio-4col">
+                        <div class="ux-portfolio-ajaxed-list grid-mask-boxed-center clearfix">                 
+                            <section class="ajaxed-grid-item grid-item">
+                                <div class="grid-item-inside">
+                                    <div class="grid-item-con">
+                                        <a href="project-item-standard-grid-title-center.html" class="grid-item-mask-link"></a>
+                                        <div class="grid-item-con-text">
+                                            <h2 class="grid-item-tit"><a class="grid-item-tit-a" href="project-item-standard-grid-title-center.html" title="LeónLeón">LeónLeón</a></h2>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="brick-content ux-lazyload-wrap" style="padding-top:75%;">
+                                        <div class="ux-background-img ux-lazyload-bgimg lazy-loaded" style="background-image: url(&quot;https://html5.seatheme.net/art/demo-imgs/9/2017/06/002-2-arttheme-thumb-11-normal-650x650.jpg&quot;);"></div>
+                                    </div>
+                                    
+                                </div><!--End inside-->
+                            </section> 
+                                                
+                            <section class="ajaxed-grid-item grid-item">
+                                <div class="grid-item-inside">
+                                    <div class="grid-item-con">
+                                        <a href="project-item-slider.html" class="grid-item-mask-link"></a>
+                                        <div class="grid-item-con-text">
+                                            <h2 class="grid-item-tit"><a class="grid-item-tit-a" href="project-item-slider.html" title="Sofia Palmero">Sofia Palmero</a></h2>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="brick-content ux-lazyload-wrap" style="padding-top:75%;">
+                                        <div class="ux-background-img ux-lazyload-bgimg lazy-loaded" style="background-image: url(&quot;https://html5.seatheme.net/art/demo-imgs/9/2017/06/001-1-arttheme-thumb-11-normal-650x650.jpg&quot;);"></div>
+                                    </div>
+                                    
+                                </div><!--End inside-->
+                            </section> 
+                                                
+                            <section class="ajaxed-grid-item grid-item">
+                                <div class="grid-item-inside">
+                                    <div class="grid-item-con">
+                                        <a href="project-item-standard-grid-title-left.html" class="grid-item-mask-link"></a>
+                                        <div class="grid-item-con-text">
+                                            <h2 class="grid-item-tit"><a class="grid-item-tit-a" href="project-item-standard-grid-title-left.html" title="Resquad">Resquad</a></h2>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="brick-content ux-lazyload-wrap" style="padding-top:75%;">
+                                        <div class="ux-background-img ux-lazyload-bgimg lazy-loaded" style="background-image: url(&quot;https://html5.seatheme.net/art/demo-imgs/9/2017/05/Resquad-008.jpg&quot;);"></div>
+                                    </div>
+                                    
+                                </div><!--End inside-->
+                            </section> 
+                                                
+                            <section class="ajaxed-grid-item grid-item">
+                                <div class="grid-item-inside">
+                                    <div class="grid-item-con">
+                                        <a href="project-item-fullscreen-slider.html" class="grid-item-mask-link"></a>
+                                        <div class="grid-item-con-text">
+                                            <h2 class="grid-item-tit"><a class="grid-item-tit-a" href="project-item-fullscreen-slider.html" title="Shake Up">Shake Up</a></h2>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="brick-content ux-lazyload-wrap" style="padding-top:75%;">
+                                        <div class="ux-background-img ux-lazyload-bgimg lazy-loaded" style="background-image: url(&quot;https://html5.seatheme.net/art/demo-imgs/9/2017/06/009-arttheme-thumb-11-normal-650x650.jpg&quot;);"></div>
+                                    </div>
+                                    
+                                </div><!--End inside-->
+                            </section> 
+                                                
+                            <section class="ajaxed-grid-item grid-item">
+                                <div class="grid-item-inside">
+                                    <div class="grid-item-con">
+                                        <a href="project-item-2cols-gallery-right-filled.html" class="grid-item-mask-link"></a>
+                                        <div class="grid-item-con-text">
+                                            <h2 class="grid-item-tit"><a class="grid-item-tit-a" href="project-item-2cols-gallery-right-filled.html" title="HIKESHI-Gallery on Right">HIKESHI-Gallery on Right</a></h2>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="brick-content ux-lazyload-wrap" style="padding-top:75%;">
+                                        <div class="ux-background-img ux-lazyload-bgimg lazy-loaded" style="background-image: url(&quot;https://html5.seatheme.net/art/demo-imgs/9/2017/06/HIKESHI_ByFutura_09-836x596-arttheme-thumb-11-normal-552x552.jpg&quot;);"></div>
+                                    </div>
+                                    
+                                </div><!--End inside-->
+                            </section> 
+                                                
+                            <section class="ajaxed-grid-item grid-item">
+                                <div class="grid-item-inside">
+                                    <div class="grid-item-con">
+                                        <a href="project-item-fullscreen-slider.html" class="grid-item-mask-link"></a>
+                                        <div class="grid-item-con-text">
+                                            <h2 class="grid-item-tit"><a class="grid-item-tit-a" href="project-item-fullscreen-slider.html" title="Domestico">Domestico</a></h2>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="brick-content ux-lazyload-wrap" style="padding-top:75%;">
+                                        <div class="ux-background-img ux-lazyload-bgimg lazy-loaded" style="background-image: url(&quot;https://html5.seatheme.net/art/demo-imgs/9/2017/05/DOMESTICO-cover1.jpg&quot;);"></div>
+                                    </div>
+                                    
+                                </div><!--End inside-->
+                            </section> 
+                                                
+                            <section class="ajaxed-grid-item grid-item">
+                                <div class="grid-item-inside">
+                                    <div class="grid-item-con">
+                                        <a href="project-item-2cols-gallery-left.html" class="grid-item-mask-link"></a>
+                                        <div class="grid-item-con-text">
+                                            <h2 class="grid-item-tit"><a class="grid-item-tit-a" href="project-item-2cols-gallery-left.html" title="Raw">Raw</a></h2>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="brick-content ux-lazyload-wrap" style="padding-top:75%;">
+                                        <div class="ux-background-img ux-lazyload-bgimg lazy-loaded" style="background-image: url(&quot;https://html5.seatheme.net/art/demo-imgs/9/2017/04/d5d68930684231.562e8ce18e606-arttheme-thumb-11-normal-525x525.jpg&quot;);"></div>
+                                    </div>
+                                    
+                                </div><!--End inside-->
+                            </section> 
+                        
+                        </div><!--End ux-portfolio-ajaxed-list-->
+                
+                    </div><!--End ux-portfolio-ajaxed-list-wrap-->
+
+                </div><!--End #related-wrap-popu -->
+    	  
+            </div><!--End wrap-outer-->
+
+            <!-- Lightbox -->
+            <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+                <div class="pswp__bg"></div>
+
+                <div class="pswp__scroll-wrap">
+
+                    <div class="pswp__container">
+                        <div class="pswp__item"></div>
+                        <div class="pswp__item"></div>
+                        <div class="pswp__item"></div>
+                    </div>
+
+                    <div class="pswp__ui pswp__ui--hidden">
+
+                        <div class="pswp__top-bar">
+
+                            <div class="pswp__counter"></div>
+                            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                            <button class="pswp__button pswp__button--share" title="Share"></button>
+                            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                            <div class="pswp__preloader">
+                                <div class="pswp__preloader__icn">
+                                  <div class="pswp__preloader__cut">
+                                    <div class="pswp__preloader__donut"></div>
+                                  </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="field">
-                            <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
+
+                        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                            <div class="pswp__share-tooltip"></div> 
                         </div>
-                        <ul class="actions">
-                            <li><input type="submit" value="Send" class="special"/></li>
-                            <li><input type="reset" value="Reset"/></li>
-                        </ul>
-                    </form>
-                </section>
-            </div>
-        </div>
-    </footer>
-</div>
+
+                        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                        </button>
+                        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                        </button>
+
+                        <div class="pswp__caption">
+                            <div class="pswp__caption__center"></div>
+                        </div>
+
+                    </div>
+
+                </div><!--End pswp__scroll-wrap-->
+
+            </div><!--End pswp-->
+
+        </div><!--End wrap-all-->
+
+        <!-- jQuery Library -->
+        <script src='js/library/jquery.min.js'></script>
+        <!--jQery Migrate plugin -->
+        <script src='js/library/jquery-migrate.min.js'></script>
+        <!-- Modernizr -->
+        <script src='js/modernizr-custom.js'></script>
+        <!-- Waypoints Plugin -->
+        <script src='js/jquery.waypoints.min.js'></script>
+        <!-- ImageLoaded Plugin-->
+        <script src='js/imagesloaded.pkgd.min.js'></script>
+        <!-- isotope Plugin -->
+        <script src='js/isotope.pkgd.min.js'></script>
+        <!-- Packery layout mode -->
+        <script src='js/packery-mode.pkgd.min.js'></script>
+        <!-- Photoswipe Plugin -->
+        <script src='js/photoswipe.min.js'></script>
+        <!-- Photoswipe Plugin UI -->
+        <script src='js/photoswipe-ui-default.min.js'></script>
+        <!-- OWL Carousel Plugin -->
+        <script src='js/owl.carousel.min.js'></script>
+        <!-- Lazy Load XT Plugin-->
+        <script src='js/jquery.lazyloadxt.min.js'></script>
+        <!-- Lazy Load XT for Background Image-->
+        <script src='js/jquery.lazyloadxt.bg.min.js'></script> 
+        <!-- VelocityJS Plugin -->
+        <script src='js/velocity.min.js'></script>
+        <!-- VelocityJS UI -->
+        <script src='js/velocity.ui.min.js'></script>
+        <!-- jplayer Plugin -->
+        <script src='js/jquery.jplayer.min.js'></script>
+        <!-- Modules js-->
+        <script src='js/modules-script.js'></script>
+        <!-- Theme main js -->
+        <script src='js/custom.theme.js'></script>
+
+    </body>
+</html>
