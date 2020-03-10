@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <title>Loading an External HTML File</title>
+</head>
+<script>
+    function loadExternalHTMLPage() {
+        var xmlhttp;
+        var pagesToDisplay = [
+            '/32.html',
+            '/88.html',
+            '/84.html',
+            '/44.html'];
+        if (window.XMLHttpRequest) {
+            xmlhttp = new XMLHttpRequest();
+        } else {
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function () {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                document.getElementById("contentArea").innerHTML = xmlhttp.responseText;
+            }
+        }
+        var randomnumber = Math.floor(Math.random() * pagesToDisplay.length);
+        xmlhttp.open("GET", pagesToDisplay[randomnumber], true);
+        xmlhttp.send();
+    }</script>
+
+<body onload="loadExternalHTMLPage()">
+    <div id="contentArea">
+    </div>
+</body>
+
+</html>
