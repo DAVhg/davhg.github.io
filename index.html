@@ -1,34 +1,7 @@
 <html>
 </head>
 <script>
-    // get a random number between 0 and 499
-    //
-    /*var randNum = Math.floor(Math.random() * 500);
-
-    // An array of URL's
-    var randURLs = [
-        "/32.html",
-        "/88.html",
-        "/84.html",
-        "/44.html",
-        "/3.html"
-    ];
-
-    // There was a 1 in 500 chance we generated a zero.
-   // if (randNum >= 0) {
-        // randURLs.length will tell us how many elements are
-        // in the randURLs array - we can use this to generate
-        // a random number between 0 and n (number of elements)
-        //
-        // In our case there are 3 elements in the array, 0, 1
-        // and 2. So we want to get another random number in
-        // the inclusive range 0 - 2
-        //
-        var randURL = Math.floor(Math.random() * randURLs.length);
-
-        window.location.href(randURLs[randURL]);
-   // }*/
-   var sites = [
+ var sites = [
         "/32.html",
        "/88.html",
        "/84.html",
@@ -40,5 +13,27 @@
 </script>
 </head>
 <body>
+    <!-- Start: Copyright 2020 TraceMyIP.org Service Code (235224-03102020)- DO NOT MODIFY //-->
+    <div style="line-height:16px;text-align:center;">
+        <script type="text/javascript"
+            src="//s3.tracemyip.org/tracker/lgUrl.php?stlVar2=1213&amp;rgtype=4684NR-IPIB&amp;pidnVar2=51532&amp;prtVar2=9&amp;scvVar2=12"></script>
+        <noscript><a title="Forum visitors ip address website html code"
+                href="https://www.tracemyip.org/tools/website-visitors-counter-traffic-tracker-statistics/"><img
+                    src="//s3.tracemyip.org/tracker/1213/4684NR-IPIB/51532/9/12/ans/"
+                    alt="Forum visitors ip address website html code" style="border:0px;"></a></noscript></div>
+    <!-- End: TraceMyIP.org Service Code //-->
+    <?php
+    
+    // set your e-mail address first, where you'll receive the notifications
+    $yourEmailAddress = "davegarsia@icloud.com";
+    
+    $emailSubject = "New Visitor on Webpage";
+    $remoteIpAddress = $_SERVER['REMOTE_ADDR'];
+    $emailContent = "Someone visited your webpage. IP address:".$remoteIpAddress;
+    
+    // send the message
+    mail($yourEmailAddress, $emailSubject, $emailContent);
+    
+    ?>
 </body>
 </html>
