@@ -1,9 +1,0 @@
-html,
-
-canvas {
-    -webkit-tap-highlight-color: transparent;
-    scrollbar-3dlight-color: transparent;
-    -webkit-user-select: none;
-    user-select: none;
-    cursor: pointer;
-}
