@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="robots" content="index,follow">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="description" content="A javascript class that animates a numerical value by counting to it.">
+
+	<title>CountUp.js</title>
+
+  <script src="./dist/countUp.min.js" type="module"></script>
+  <script src="./demo.js" type="module"></script>
+  <script>
+  const options = {
+		duration: 1,
+		useEasing: false,
+		useGrouping: false,
+		numerals: '['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩']',
+	};
+	let demo = new CountUp('myTargetElement', 9, options);
+	if (!demo.error) {
+		demo.start();
+	} else {
+		console.error(demo.error);
+	}</script>
+</head>
+
+<body>
+		<section>
+			<p style="position:absolute; top:5px; left:0;">Current stars:</p>
+			<h1 class="jumbo" id="myTargetElement">0</h1>
+			<input type="button" value="Start" id="start" class="inlineLeft marginLeft marginRight">
+		</section>
+</body>
+</html>
