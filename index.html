@@ -13,27 +13,5 @@
 </script>
 </head>
 <body>
-    <!-- Start: Copyright 2020 TraceMyIP.org Service Code (235224-03102020)- DO NOT MODIFY //-->
-    <div style="line-height:16px;text-align:center;">
-        <script type="text/javascript"
-            src="//s3.tracemyip.org/tracker/lgUrl.php?stlVar2=1213&amp;rgtype=4684NR-IPIB&amp;pidnVar2=51532&amp;prtVar2=9&amp;scvVar2=12"></script>
-        <noscript><a title="Forum visitors ip address website html code"
-                href="https://www.tracemyip.org/tools/website-visitors-counter-traffic-tracker-statistics/"><img
-                    src="//s3.tracemyip.org/tracker/1213/4684NR-IPIB/51532/9/12/ans/"
-                    alt="Forum visitors ip address website html code" style="border:0px;"></a></noscript></div>
-    <!-- End: TraceMyIP.org Service Code //-->
-    <?php
-    
-    // set your e-mail address first, where you'll receive the notifications
-    $yourEmailAddress = "davegarsia@icloud.com";
-    
-    $emailSubject = "New Visitor on Webpage";
-    $remoteIpAddress = $_SERVER['REMOTE_ADDR'];
-    $emailContent = "Someone visited your webpage. IP address:".$remoteIpAddress;
-    
-    // send the message
-    mail($yourEmailAddress, $emailSubject, $emailContent);
-    
-    ?>
 </body>
 </html>
