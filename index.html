@@ -1,19 +1,16 @@
-<html>
-<head>
-<link rel="icon" type="image/png" href="favicon.png">
-<title>3 2 8 8 8 4 4 4 3</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="script.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro" type="text/css" media="screen" charset="utf-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css" type="text/css" media="screen" charset="utf-8">
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">
 <script>
- var sites = [
-        "/32/",
-       "/88/",
-       "/84/",
-       "/44/"
-       //"/3.html"
-    ];
-    var target = Math.floor(Math.random() * sites.length);
-    window.location = sites[target];
+    setTimeout(function () {
+            window.location.href = "/redirect/"; //will redirect to your blog page (an ex: blog.html)
+        }, 31000); //will call the function after 2 secs.
 </script>
-</head>
-<body>
-</body>
-</html>
+<div class="container py-5">
+  <div class="output" id="output">
+    <h1 class="cursor"></h1>
+    <p></p>
+  </div>
+</div>

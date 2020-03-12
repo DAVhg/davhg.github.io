@@ -6,15 +6,21 @@ var i = 0,
 
 // Typerwrite text content. Use a pipe to indicate the start of the second line "|".  
 var textArray = [
-    " welcome |to",
-    "3|2|8|8|8|4|4|4|3",
+    "",
+    " welcome| to",
+    "3 2 8 8 8 4 4 4 3",
+    "",
+    "L 8 A D I N G | 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 3 2 8 8 8 4 4 4 3 ",
+    "LOADING COMPLETE.| REDIRECTING NOW...",
+    "",
+    "",
 ];
 
 // Speed (in milliseconds) of typing.
-var speedForward = 30, //Typing Speed
-    speedWait = 1000, // Wait between typing and backspacing
-    speedBetweenLines = 500, //Wait between first and second lines
-    speedBackspace = 25; //Backspace Speed
+var speedForward = 20, //Typing Speed
+    speedWait = 800, // Wait between typing and backspacing
+    speedBetweenLines = 400, //Wait between first and second lines
+    speedBackspace = 15; //Backspace Speed
 
 //Run the loop
 typeWriter("output", textArray);
