@@ -10,7 +10,6 @@ var textArray = [
     "CANCEL CANCEL CULTURE",
     "F*CK INFLUENCER CULTURE",
     "DEPLATFORM THEM",
-    "",
     "REWRITE THE GORITHMS",
     "",
 ];
@@ -19,7 +18,7 @@ var textArray = [
 var speedForward = 20, //Typing Speed
     speedWait = 800, // Wait between typing and backspacing
     speedBetweenLines = 400, //Wait between first and second lines
-    speedBackspace = 15; //Backspace Speed
+    speedBackspace = 10; //Backspace Speed
 
 //Run the loop
 typeWriter("output", textArray);
