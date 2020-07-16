@@ -7,10 +7,7 @@ var i = 0,
 // Typerwrite text content. Use a pipe to indicate the start of the second line "|".  
 var textArray = [
     "",
-    "CANCEL CANCEL CULTURE",
-    "F*CK INFLUENCER CULTURE",
-    "DEPLATFORM THEM",
-    "REWRITE THE GORITHMS",
+    "CANCEL CANCEL CULTURE. F*CK INFLUENCER CULTURE. DEPLATFORM THEM. REWRITE THE GORITHMS.",
     "",
 ];
 
