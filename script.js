@@ -10,14 +10,14 @@ var textArray = [
     "var i = 0
     a = 0 
     isBackspacing = false 
-    isParagraph = false
+    isParagraph = false",
 
-    var speedForward = 20 
+    "var speedForward = 20 
     speedWait = 800
     speedBetweenLines = 400
-    typeWriter(textArray)
+    typeWriter(textArray)",
 
-    function typeWriter(id, ar) {
+    "function typeWriter(id, ar) {
     var element = $( + id)
     aString = ar[a]
     eHeader = element.children(h1)
