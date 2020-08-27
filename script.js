@@ -12,12 +12,12 @@ var textArray = [
     isBackspacing = false 
     isParagraph = false",
 
-    "var speedForward = 20 
+    "varspeedForward = 20 
     speedWait = 800
     speedBetweenLines = 400
     typeWriter(textArray)",
 
-    "function typeWriter(id, ar) {
+    "functiontypeWriter(id, ar) {
     var element = $( + id)
     aString = ar[a]
     eHeader = element.children(h1)
