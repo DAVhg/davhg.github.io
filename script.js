@@ -8,20 +8,20 @@ var i = 0,
 var textArray = [
     "",
     "var i = 0
-    a = 0, 
-    isBackspacing = false, 
-    isParagraph = false; 
+    a = 0 
+    isBackspacing = false 
+    isParagraph = false
 
-    var speedForward = 20, 
+    var speedForward = 20 
     speedWait = 800
-    speedBetweenLines = 400, 
-    typeWriter(textArray); 
+    speedBetweenLines = 400
+    typeWriter(textArray)
 
     function typeWriter(id, ar) {
-    var element = $( + id),
-    aString = ar[a], 
-    eHeader = element.children(h1), 
-    eParagraph = element.children(h1); ",
+    var element = $( + id)
+    aString = ar[a]
+    eHeader = element.children(h1)
+    eParagraph = element.children(h1) ",
 
    
     "if (!isBackspacing) {",
