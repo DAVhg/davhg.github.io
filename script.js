@@ -6,27 +6,14 @@ var i = 0,
 
 // Typerwrite text content. Use a pipe to indicate the start of the second line "|".  
 var textArray = [
-    "",
-    "var i = 0
-    a = 0 
-    isBackspacing = false 
-    isParagraph = false",
+    "var i = 0 a = 0 isBackspacing = false isParagraph = false",
 
-    "varspeedForward = 20 
-    speedWait = 800
-    speedBetweenLines = 400
-    typeWriter(textArray)",
+    "varspeedForward = 20 speedWait = 800 speedBetweenLines = 400 typeWriter(textArray)",
 
-    "functiontypeWriter(id, ar) {
-    var element = $( + id)
-    aString = ar[a]
-    eHeader = element.children(h1)
-    eParagraph = element.children(h1) ",
-
+    "functiontypeWriter(id, ar) { var element = $( + id) aString = ar[a] eHeader = element.children(h1) eParagraph = element.children(h1) ",
    
     "if (!isBackspacing) {",
 
-        
     "if (i < aString.length) {",
 
     "if (aString.charAt(i) == " | ") {",
@@ -77,7 +64,7 @@ var textArray = [
 
 // Speed (in milliseconds) of typing.
 var speedForward = 20, //Typing Speed
-    speedWait = 800, // Wait between typing and backspacing
+    speedWait = 400, // Wait between typing and backspacing
     speedBetweenLines = 400, //Wait between first and second lines
     speedBackspace = 10; //Backspace Speed
 
