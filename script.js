@@ -6,47 +6,7 @@ var i = 0,
 
 // Typerwrite text content. Use a pipe to indicate the start of the second line "|".  
 var textArray = [
-    "var i = 0 a = 0 isBackspacing = false isParagraph = false varspeedForward = 20 speedWait = 800 speedBetweenLines = 400 typeWriter(textArray) functiontypeWriter(id, ar) { var element = $( + id) aString = ar[a] eHeader = element.children(h1) eParagraph = element.children(h1) if (!isBackspacing) { if (i < aString.length) { if (aString.charAt(i) == " | ") { isParagraph = true;" "eHeader.removeClass(cursor);" " eParagraph.addClass(cursor);",
-               " i++;",
-               " setTimeout(function () { typeWriter(id, ar); }, speedBetweenLines);",
-           " } else {",
-                "if (!isParagraph) {",
-                   " eHeader.text(eHeader.text() + aString.charAt(i));",
-               " } else {",
-                  "  eParagraph.text(eParagraph.text() + aString.charAt(i));",
-                "}",
-               " i++;",
-               " setTimeout(function () { typeWriter(id, ar); }, speedForward);",
-           " }",
-
-       " } else if (i == aString.length) {",
-
-           " isBackspacing = true;",
-           " setTimeout(function () { typeWriter(id, ar); }, speedWait);",
-
-       " }",
-
-    "} else {",
-
-    "if (eHeader.text().length > 0 || eParagraph.text().length > 0) {",
-
-            "if (eParagraph.text().length > 0) {",
-            "    eParagraph.text(eParagraph.text().substring(0, eParagraph.text().length - 1));",
-            " } else if (eHeader.text().length > 0) {",
-            "     eParagraph.removeClass(cursor);",
-            "     eHeader.text(eHeader.text().substring(0, eHeader.text().length - 1));",
-            "  }",
-                "setTimeout(function () { typeWriter(id, ar); }, speedBackspace); ",
-
-        "} else { ",
-
-            "isBackspacing = false; ",
-           " i = 0; ",
-           " isParagraph = false; ",
-           " a = (a + 1) % ar.length; ",
-          "  setTimeout(function () { typeWriter(id, ar); }, 50); ",
-
-    "",
+    "A problem has been detected and Windows has been shut down to prevent damage to your computer. | If this is the first time you've seen this stop error screen, restart your computer. if this screen appears again, follow these steps: | Check to make sure any new hardware or software is properly installed.I this is a new installation, ask your hardware or software manufacturer for and Windows updates you might need. | If problems continue, disable or remove any newly installed hardware or software.Disable BIOS memory options such as caching or shadowing.If you need to use Safe Mode to remove or disable components, restart your computer, press F8 to select Advanced Startup Options, and then select Safe Mode. | Technical information: | *** STOP: 0x000000FE(0x00000008, 0x000000006, 0x00000009, 0x847075cc)",
 ];
 
 // Speed (in milliseconds) of typing.
