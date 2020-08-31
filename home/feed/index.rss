@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>W95 Theme Demo</title>
+	<atom:link href="https://demo.brutalistthemes.com/w95/feed/" rel="self" type="application/rss+xml" />
+	<link>https://demo.brutalistthemes.com/w95</link>
+	<description>Just another BrutalistThemes.com Demos site</description>
+	<lastBuildDate>Tue, 31 Dec 2019 01:39:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5</generator>
+	<item>
+		<title>Windows 95 theme</title>
+		<link>https://demo.brutalistthemes.com/w95/2019/12/31/windows-95-theme/</link>
+		
+		<dc:creator><![CDATA[BrutalistThemes]]></dc:creator>
+		<pubDate>Tue, 31 Dec 2019 01:39:27 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://localhost/Work/w95theme.com/?p=343</guid>
+
+					<description><![CDATA[Windows 95 (codenamed Chicago) is a consumer-oriented operating system developed by Microsoft as part of its Windows 9x family of operating systems. The first operating system in the 9x family, it is the successor to Windows 3.1x, and was released to manufacturing on August 15, 1995, and generally to retail on August 24, 1995. Windows [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div class="intro">
+	This is an intro paragraph created with a shortcode</div>
+
+
+
+<p><strong>Windows 95</strong> (codenamed Chicago) is a consumer-oriented operating system developed by Microsoft as part of its Windows 9x family of operating systems. The first operating system in the 9x family, it is the successor to Windows 3.1x, and was released to manufacturing on August 15, 1995, and generally to retail on August 24, 1995.<sup> </sup>Windows 95 merged Microsoft&#8217;s formerly separate MS-DOS and Microsoft Windows products, and featured significant improvements over its predecessor, most notably in the graphical user interface (GUI) and in its simplified &#8220;plug-and-play&#8221; features. There were also major changes made to the core components of the operating system, such as moving from a mainly cooperatively multitasked 16-bit architecture to a 32-bit preemptive multitasking architecture, at least when running only 32-bit protected mode applications. </p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="346" height="780" src="https://demo.brutalistthemes.com/w95/wp-content/uploads/sites/6/2019/12/w95.png" alt="" class="wp-image-346" srcset="https://demo.brutalistthemes.com/w95/wp-content/uploads/sites/6/2019/12/w95.png 346w, https://demo.brutalistthemes.com/w95/wp-content/uploads/sites/6/2019/12/w95-133x300.png 133w" sizes="(max-width: 346px) 100vw, 346px" /></figure>
+
+
+
+<p>Accompanied by an extensive marketing campaign, Windows 95 introduced numerous functions and features that were featured in later Windows versions, such as the taskbar, the &#8220;Start&#8221; button and the ways the user could navigate.</p>
+
+
+<div class="pull-left">
+	This is a left side pull-quote created with a shortcode</div>
+
+
+
+<p>Three years after its introduction, Windows 95 was succeeded by Windows 98. Microsoft ended extended support for Windows 95 on December 31, 2001. </p>
+
+
+
+<p>The initial design and planning of Windows 95 can be traced back to around March 1992, just after the release of Windows 3.1. At this time, Windows for Workgroups 3.1 and Windows NT 3.1 were still in development and Microsoft&#8217;s plan for the future was focused on Cairo. Cairo would be Microsoft&#8217;s next-generation operating system based on  Windows NT and featuring a new user interface and an object-based file  system, but it was not planned to be shipped before 1994 (Cairo would  eventually partially ship in July 1996 in the form of Windows NT 4.0, but without the object-based file system, which would later evolve into WinFS). </p>
+
+
+<div class="pull-right">
+	This is a right side pull-quote created with a shortcode</div>
+
+
+
+<p>Simultaneously with Windows 3.1&#8217;s release, IBM started shipping OS/2 2.0.  Microsoft realized they were in need of an updated version of Windows  that could support 32-bit applications and preemptive multitasking, but  could still run on low-end hardware (Windows NT did not). So the  development of Windows &#8220;Chicago&#8221; was started and, as it was planned for a  late 1993 release, became known as Windows 93. Initially, the decision  was made not to include a new user interface, as this was planned for  Cairo, and only focus on making installation, configuration, and  networking easier. Windows 93 would ship together with MS-DOS 7.0,  offering a more integrated experience to the user and making it  pointless for other companies to create DOS clones. MS-DOS 7.0 was in  development at that time under the code name &#8220;Jaguar&#8221; and could  optionally run on top of a Windows 3.1-based 32-bit protected mode  kernel called &#8220;Cougar&#8221; in order to better compete with DR-DOS. </p>
+
+
+
+<p>^ Text source: Wikipedia.org. The text was used for the sole purpose of this theme demo.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Mid-90s nostalgia</title>
+		<link>https://demo.brutalistthemes.com/w95/2019/12/30/mid-90s-nostalgia/</link>
+		
+		<dc:creator><![CDATA[BrutalistThemes]]></dc:creator>
+		<pubDate>Mon, 30 Dec 2019 01:14:15 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://localhost/Work/w95theme.com/?p=337</guid>
+
+					<description><![CDATA[The 1990s were a revolutionary decade for digital technology. Between 1990 and 1997, individual personal computer ownership in the US rose from 15% to 35%. Cell phones of the early-1990s and earlier ones were very large, lacked extra features, and were used by only a few percent of the population of even the wealthiest nations. [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div class="intro">
+	This is an intro paragraph created with a shortcode</div>
+
+
+
+<p>The 1990s were a revolutionary decade for digital technology. Between 1990 and 1997, individual personal computer ownership in the US rose from 15% to 35%. Cell phones of the early-1990s and earlier ones were very large, lacked  extra features, and were used by only a few percent of the population  of even the wealthiest nations. Only a few million people used online  services in 1990, and the World Wide Web had only just been invented. The first web browser went online in 1993 and by 2001, more than 50% of some Western countries had Internet access, and more than 25% had cell phone access. </p>
+
+
+<div class="pull-left">
+	This is a left side pull-quote created with a shortcode</div>
+
+
+
+<p>The &#8220;historical&#8221; World Wide Web project logo designed by Robert Cailliau. </p>
+
+
+
+<p>The logo created by The President&#8217;s Council on the Year 2000 Conversion, for use on Y2K.gov On 6 August 1991, CERN, a pan European organization for particle research, publicized the new World Wide Web project.  Although the basic applications and guidelines that make the Internet  possible had existed for almost two decades, the network did not gain a  public face until the 1990s.</p>
+
+
+
+<p>Driven by mass adoption, consumer personal computer specifications increased dramatically during the 1990s, from 512 KB RAM 12&nbsp;MHz Turbo XTs in 1990, to 25–66&nbsp;MHz 80486-class processor at the start of the popularization of the World Wide Web mid-decade, to over 1&nbsp;GHz CPUs with close to a gigabyte of RAM by 2000.</p>
+
+
+
+<p>Y2K  spread fear throughout the United States and eventually the world in  the last half of the decade, particularly in 1999, about possible  massive computer malfunctions on 1 January 2000. As a result, many  people stocked up on supplies for fear of a worldwide disaster. After  significant effort to upgrade systems on the part of software engineers,  no failures occurred when the clocks rolled over into 2000.</p>
+
+
+<div class="pull-right">
+	This is a right side pull-quote created with a shortcode</div>
+
+
+
+<p>Advancements in computer modems, ISDN, cable modems, and DSL lead to faster connections to the Internet.</p>
+
+
+
+<p>The first Pentium microprocessor is introduced and developed by the Intel Corporation.</p>
+
+
+
+<p>Email becomes popular; as a result, Microsoft acquires the popular Hotmail webmail service.</p>
+
+
+
+<p>Instant messaging and the buddy list feature becomes popular. AIM and ICQ are two early protocols.</p>
+
+
+
+<p>Businesses start to build e-commerce websites; e-commerce-only companies such as Amazon.com, eBay, AOL, and Yahoo! grow rapidly.</p>
+
+
+
+<p>The introduction of affordable, smaller satellite dishes and the DVB-S standard in the mid-1990s expanded satellite television services that carried up to 500 television channels.</p>
+
+
+
+<p>The first MP3 player, the MPMan, is released in late spring of 1998. It came with 32&nbsp;MB of flash memory expandable to 64&nbsp;MB. By the mid-2000s, the MP3 player would overtake the CD player in popularity.</p>
+
+
+
+<p>The first GSM network is launched in Finland in 1991.</p>
+
+
+
+<p>Digital single-lens reflex cameras and regular digital cameras become commercially available. They would replace film cameras by the mid-2000s.</p>
+
+
+
+<p>IBM introduces the 1-inch (25&nbsp;mm) wide Microdrive hard drive in 170 MB and 340 MB capacities.</p>
+
+
+
+<p>Apple in 1998 introduces the iMac  all-in-one computer, initiating a trend in computer design towards  translucent plastics and multicolor case design, discontinuing many legacy technologies like serial ports, and beginning a resurgence in the company&#8217;s fortunes that continues to this day.</p>
+
+
+
+<p>CD burner drives are introduced.</p>
+
+
+
+<p>The CD-ROM drive became standard for most personal computers during the decade.</p>
+
+
+
+<p>The DVD media format is developed and popularized along with a plethora of Flash memory card standards in 1994.</p>
+
+
+
+<p>Pagers are initially popular but ultimately are replaced by mobile phones by the early-2000s.</p>
+
+
+
+<p>Hand-held satellite phones are introduced towards the end of the decade.</p>
+
+
+
+<p>Portable CD players,  introduced during the late 1980s, became very popular and had a  profound impact on the music industry and youth culture during the  1990s.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Windows 95 love</title>
+		<link>https://demo.brutalistthemes.com/w95/2019/12/29/windows-95-love/</link>
+		
+		<dc:creator><![CDATA[BrutalistThemes]]></dc:creator>
+		<pubDate>Sun, 29 Dec 2019 01:51:50 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://localhost/Work/w95theme.com/?p=348</guid>
+
+					<description><![CDATA[Windows 95 (codenamed Chicago) is a consumer-oriented operating system developed by Microsoft as part of its Windows 9x family of operating systems. The first operating system in the 9x family, it is the successor to Windows 3.1x, and was released to manufacturing on August 15, 1995, and generally to retail on August 24, 1995. Windows [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div class="intro">
+	This is an intro paragraph created with a shortcode</div>
+
+
+
+<p><strong>Windows 95</strong> (codenamed Chicago) is a consumer-oriented operating system developed by Microsoft as part of its Windows 9x family of operating systems. The first operating system in the 9x family, it is the successor to Windows 3.1x, and was released to manufacturing on August 15, 1995, and generally to retail on August 24, 1995.<sup> </sup>Windows 95 merged Microsoft&#8217;s formerly separate MS-DOS and Microsoft Windows products, and featured significant improvements over its predecessor, most notably in the graphical user interface (GUI) and in its simplified &#8220;plug-and-play&#8221; features. There were also major changes made to the core components of the operating system, such as moving from a mainly cooperatively multitasked 16-bit architecture to a 32-bit preemptive multitasking architecture, at least when running only 32-bit protected mode applications. </p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="346" height="780" src="https://demo.brutalistthemes.com/w95/wp-content/uploads/sites/6/2019/12/w95.png" alt="" class="wp-image-346" srcset="https://demo.brutalistthemes.com/w95/wp-content/uploads/sites/6/2019/12/w95.png 346w, https://demo.brutalistthemes.com/w95/wp-content/uploads/sites/6/2019/12/w95-133x300.png 133w" sizes="(max-width: 346px) 100vw, 346px" /></figure>
+
+
+
+<p>Accompanied by an extensive marketing campaign, Windows 95 introduced numerous functions and features that were featured in later Windows versions, such as the taskbar, the &#8220;Start&#8221; button and the ways the user could navigate.</p>
+
+
+<div class="pull-left">
+	This is a left side pull-quote created with a shortcode</div>
+
+
+
+<p>Three years after its introduction, Windows 95 was succeeded by Windows 98. Microsoft ended extended support for Windows 95 on December 31, 2001. </p>
+
+
+
+<p>The initial design and planning of Windows 95 can be traced back to around March 1992, just after the release of Windows 3.1. At this time, Windows for Workgroups 3.1 and Windows NT 3.1 were still in development and Microsoft&#8217;s plan for the future was focused on Cairo. Cairo would be Microsoft&#8217;s next-generation operating system based on  Windows NT and featuring a new user interface and an object-based file  system, but it was not planned to be shipped before 1994 (Cairo would  eventually partially ship in July 1996 in the form of Windows NT 4.0, but without the object-based file system, which would later evolve into WinFS). </p>
+
+
+<div class="pull-right">
+	This is a right side pull-quote created with a shortcode</div>
+
+
+
+<p>Simultaneously with Windows 3.1&#8217;s release, IBM started shipping OS/2 2.0.  Microsoft realized they were in need of an updated version of Windows  that could support 32-bit applications and preemptive multitasking, but  could still run on low-end hardware (Windows NT did not). So the  development of Windows &#8220;Chicago&#8221; was started and, as it was planned for a  late 1993 release, became known as Windows 93. Initially, the decision  was made not to include a new user interface, as this was planned for  Cairo, and only focus on making installation, configuration, and  networking easier. Windows 93 would ship together with MS-DOS 7.0,  offering a more integrated experience to the user and making it  pointless for other companies to create DOS clones. MS-DOS 7.0 was in  development at that time under the code name &#8220;Jaguar&#8221; and could  optionally run on top of a Windows 3.1-based 32-bit protected mode  kernel called &#8220;Cougar&#8221; in order to better compete with DR-DOS. </p>
+
+
+
+<p>^ Text source: Wikipedia.org. The text was used for the sole purpose of this theme demo.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>This site is best viewed in Netscape</title>
+		<link>https://demo.brutalistthemes.com/w95/2019/12/28/this-site-is-best-viewed-in-netscape/</link>
+		
+		<dc:creator><![CDATA[BrutalistThemes]]></dc:creator>
+		<pubDate>Sat, 28 Dec 2019 23:30:59 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://localhost/Work/w95theme.com/?p=316</guid>
+
+					<description><![CDATA[The Netscape web browser is the general name for a series of web browsers formerly produced by Netscape Communications Corporation, a former subsidiary of AOL. The original browser was once the dominant browser in terms of usage share, but as a result of the first browser war, it lost virtually all of its share to [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>The Netscape web browser is the general name for a series of web browsers formerly produced by Netscape Communications Corporation, a former subsidiary of AOL. The original browser was once the dominant browser in terms of usage share, but as a result of the first browser war, it lost virtually all of its share to Internet Explorer.</p>
+
+
+
+<p>Netscape was discontinued and support for all Netscape browsers and client products was terminated on March 1, 2008.</p>
+
+
+
+<p>Netscape Navigator was the name of Netscape&#8217;s web browser from  versions 1.0 through 4.8. The first version of the browser was released  in 1994, known as Mosaic and then Mosaic Netscape until a legal  challenge from the National Center for Supercomputing Applications (makers of NCSA Mosaic, which many of Netscape&#8217;s founders had spent time developing) which led to the name change to Netscape Navigator. The company&#8217;s name also changed from Mosaic Communications Corporation to Netscape Communications Corporation. </p>
+
+
+
+<p>The browser was the most advanced available and was an instant  success, becoming market leader while still in beta. Netscape&#8217;s  feature-count and market share continued to grow rapidly after version  1.0 was released. Version 2.0 added a full mail reader called Netscape  Mail, thus transforming Netscape from a mere web browser to an Internet suite.  During this period, both the browser and the suite were known as  Netscape Navigator. Around the same time, AOL started bundling their  software with Microsoft&#8217;s Internet Explorer. </p>
+
+
+
+<p>Version 3.0 of Netscape was the first to face any serious competition in the form of Microsoft Internet Explorer 3.0,  but Netscape held off Microsoft&#8217;s challenge and remained the number one  browser for the time. Version 3.0 was also available in a &#8220;Gold&#8221;  version which featured a WYSIWYG  HTML editor (later added to Netscape Communicator as a standard  feature), and was sold as retail software for profit. Netscape 3.0  introduced many new features such as new plug-ins, background colors for  tables, the archive attribute, and the applet element. Netscape  Navigator 3 was the undisputed web browser giant in its time with over  90% share, but it was later eroded by the free Internet Explorer  included with Windows 95. </p>
+
+
+
+<p>^ Text from Wikipedia.org, used for the sole purpose of this demo.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Highlight.js is included</title>
+		<link>https://demo.brutalistthemes.com/w95/2019/12/27/highlight-js-is-included/</link>
+		
+		<dc:creator><![CDATA[BrutalistThemes]]></dc:creator>
+		<pubDate>Fri, 27 Dec 2019 01:00:44 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://localhost/Work/w95theme.com/?p=333</guid>
+
+					<description><![CDATA[W95 theme includes highlighter.js for code snippets formatting. 
+<pre><code>// Your code here
+add_filter(<span class="hljs-string">'the_excerpt'</span>, <span class="hljs-string">'custom_short_excerpt'</span>);
+</code></pre>. It will automatically detect language.]]></description>
+										<content:encoded><![CDATA[<div class="intro">
+	This is an intro paragraph created with a shortcode</div>
+
+
+
+<p>W95 theme includes highlighter.js for code snippets formatting. To use it, just add <code>&lt;pre&gt;&lt;code&gt;Your code&lt;/code&gt;&lt;/pre&gt;</code></p>
+
+
+
+<pre class="wp-block-code"><code>/**
+ * Limit excerpt to a number of characters without cutting last word
+ * 
+ * @param string $excerpt
+ * @return string
+ */
+function custom_short_excerpt($excerpt){
+	$limit = 200;
+
+	if (strlen($excerpt) &gt; $limit) {
+		return substr($excerpt, 0, strpos($excerpt, ' ', $limit));
+	}
+
+	return $excerpt;
+}
+
+add_filter('the_excerpt', 'custom_short_excerpt');</code></pre>
+
+
+
+<p>Béton brut (french for raw concrete) is a smooth architectural surface made out of concrete. The concrete is left unfinished or roughly-finished after casting and it remains exposed visually. The final surface often shows the forms and structures of the formwork.</p>
+
+
+
+<p>The best known proto-Brutalist architecture is the work of the Swiss architect Le Corbusier, in particular his 1952 Unité d&#8217;habitation in France and the 1953 Secretariat Building (Palace of Assembly) in Chandigarh, India. Brutalism gained considerable momentum in the United Kingdom during the mid-twentieth century, as economically depressed (and World War II-ravaged) communities sought inexpensive construction and design methods for low-cost housing, shopping centres, and government buildings.</p>
+
+
+<div class="pull-left">
+	This is a left side pull-quote created with a shortcode</div>
+
+
+
+<p>Nonetheless, many architects chose the Brutalist style even when they had large budgets, as they appreciated the &#8216;honesty&#8217;, the sculptural qualities, and perhaps, the uncompromising, anti-bourgeois, nature of the style.</p>
+
+
+
+<p>The use of béton brut was pioneered by Auguste Perret and other modern architects. It was used in such buildings as Unité d&#8217;Habitation in the early part of the twentieth century. It flourished as a part of the brutalist architecture of the 1960s and 70s.</p>
+
+
+<div class="pull-right">
+	This is a right side pull-quote created with a shortcode</div>
+
+
+
+<p>This largely gave way to structural expressionism as steel structures became more advanced and viable. Wood-imprinted concrete is still very popular in landscaping especially in some of the western European countries.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Windows 95 memorabilia</title>
+		<link>https://demo.brutalistthemes.com/w95/2019/12/26/windows-95-memorabilia/</link>
+		
+		<dc:creator><![CDATA[BrutalistThemes]]></dc:creator>
+		<pubDate>Thu, 26 Dec 2019 00:40:53 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://localhost/Work/w95theme.com/?p=324</guid>
+
+					<description><![CDATA[Windows 95 (codenamed Chicago) is a consumer-oriented operating system developed by Microsoft as part of its Windows 9x family of operating systems. The first operating system in the 9x family, it is the successor to Windows 3.1x, and was released to manufacturing on August 15, 1995, and generally to retail on August 24, 1995. Windows [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div class="intro">
+	This is an intro paragraph created with a shortcode</div>
+
+
+
+<p><strong>Windows 95</strong> (codenamed Chicago) is a consumer-oriented operating system developed by Microsoft as part of its Windows 9x family of operating systems. The first operating system in the 9x family, it is the successor to Windows 3.1x, and was released to manufacturing on August 15, 1995, and generally to retail on August 24, 1995.<sup> </sup>Windows 95 merged Microsoft&#8217;s formerly separate MS-DOS and Microsoft Windows products, and featured significant improvements over its predecessor, most notably in the graphical user interface (GUI) and in its simplified &#8220;plug-and-play&#8221; features. There were also major changes made to the core components of the operating system, such as moving from a mainly cooperatively multitasked 16-bit architecture to a 32-bit preemptive multitasking architecture, at least when running only 32-bit protected mode applications. </p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Start me up: Watch CNET&#039;s early coverage of Windows 95, back in 1995" width="580" height="326" src="https://www.youtube.com/embed/Wu_gE8gQLIc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>Accompanied by an extensive marketing campaign, Windows 95 introduced numerous functions and features that were featured in later Windows versions, such as the taskbar, the &#8220;Start&#8221; button and the ways the user could navigate.</p>
+
+
+<div class="pull-left">
+	This is a left side pull-quote created with a shortcode</div>
+
+
+
+<p>Three years after its introduction, Windows 95 was succeeded by Windows 98. Microsoft ended extended support for Windows 95 on December 31, 2001. </p>
+
+
+
+<p>The initial design and planning of Windows 95 can be traced back to around March 1992, just after the release of Windows 3.1. At this time, Windows for Workgroups 3.1 and Windows NT 3.1 were still in development and Microsoft&#8217;s plan for the future was focused on Cairo. Cairo would be Microsoft&#8217;s next-generation operating system based on  Windows NT and featuring a new user interface and an object-based file  system, but it was not planned to be shipped before 1994 (Cairo would  eventually partially ship in July 1996 in the form of Windows NT 4.0, but without the object-based file system, which would later evolve into WinFS). </p>
+
+
+<div class="pull-right">
+	This is a right side pull-quote created with a shortcode</div>
+
+
+
+<p>Simultaneously with Windows 3.1&#8217;s release, IBM started shipping OS/2 2.0.  Microsoft realized they were in need of an updated version of Windows  that could support 32-bit applications and preemptive multitasking, but  could still run on low-end hardware (Windows NT did not). So the  development of Windows &#8220;Chicago&#8221; was started and, as it was planned for a  late 1993 release, became known as Windows 93. Initially, the decision  was made not to include a new user interface, as this was planned for  Cairo, and only focus on making installation, configuration, and  networking easier. Windows 93 would ship together with MS-DOS 7.0,  offering a more integrated experience to the user and making it  pointless for other companies to create DOS clones. MS-DOS 7.0 was in  development at that time under the code name &#8220;Jaguar&#8221; and could  optionally run on top of a Windows 3.1-based 32-bit protected mode  kernel called &#8220;Cougar&#8221; in order to better compete with DR-DOS. </p>
+
+
+
+<p>^ Text source: Wikipedia.org. The text was used for the sole purpose of this theme demo.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
