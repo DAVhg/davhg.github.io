@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport"    
+  content="width=device-width">
+ 
+ <title>Cipher machine</title>
+      
+ <script>  
+          
+  const alphabet = [
+      'A','2','B','22','C','222','D','3','E','33','F','333',
+      'G','4','H','44','I','444','J','5','K', '55', 'L', '555',
+      'M','6','N','66','O','666','P','7','Q','77','R','777',
+      'S','7777','T','8','U','88','V','888','W','9','X','99',
+      'Y','999','Z','9999' 
+  ];
+    
+ function encryptText() {
+  
+  const form = document.forms[0];
+  
+  let title=
+   document.getElementById("titleId");  
+     
+  title.innerHTML = "E N C R Y P T E D";
+  
+  let shift= 1; 
+     
+  let sourceText =  
+    form.sourceText.value;       
+     
+  form.sourceText.value 
+    = [... sourceText ].map(char =>
+      encrypt(char, shift)).join('');
+ }
+    
+ function decryptText() {
+  const form = document.forms[0];
+  let title = document.getElementById("titleId");       
+  
+  title.innerHTML = "D E C R Y P T E D";
+       
+  let shift =   
+    Number(form.shift.value);
+  let sourceText = 
+    form.sourceText.value;    
+     
+  shift = 
+     (alphabet.length - shift) %  
+      alphabet.length;
+    
+  form.sourceText.value 
+      = [... sourceText ].map(char => 
+        encrypt(char,    
+        shift)).join('');
+ }
+    
+ function encrypt(char, shift) {
+  let include =        
+   alphabet.includes(
+    char.toUpperCase()); 
+     
+  if (include){      
+   let position =         
+    alphabet.indexOf(
+     char.toUpperCase());
+      
+  let newPosition = 
+    (position+shift) %  
+      alphabet.length;
+  return alphabet[newPosition];
+ }else  return char;
+}        
+</script>
+</head>
+<body>
+    <center>
+    <script type="text/javascript"
+        src="https://www.ipalf.com/widget.js?width=600&bg=1900FF&border=1900FF&textcol=FFFFFF&region=0&country=0&language=0&flag=0"></script>
+   <form>       
+   <h1>C Y P H E R</h1>   
+   <p id="titleId">3 2 8 8 8 4 4 4 3</p>
+  
+   <div>          
+    <textarea name="sourceText" 
+       rows="8"
+       cols="50"         
+       spellcheck="false"
+       value="">                       
+    </textarea>
+   </div>
+  
+   <!--<div>      
+    <label for="shift">Shift:</label>
+    <select id="shift" name="shift">
+     <option value="1">1</option>
+     <option value="2">2</option>
+     <option value="5">5</option>
+     <option value="10">10</option>
+    </select> 
+  </div>-->
+   
+  <div>      
+    <input type="button" id="decrypt" 
+       value="ENCRYPT" 
+       onclick="encryptText();">
+    <input type="button" id="decrypt" 
+       value="DECRYPT" 
+       onclick="decryptText();">    
+  </div>
+  
+  </form>
+</center>
+</body>
+</html>
