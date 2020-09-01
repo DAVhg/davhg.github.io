@@ -111,30 +111,24 @@
   </div>
   
   </form>
+<br><br>
+<script type="application/javascript">
+  function getIP(json) {
+    document.write("", json.ip);
+    console.log(json);
+    alert(json.ip);
+    const data = JSON.stringify(json);
+    const fs = require('fs');
+    // write JSON string to a file
+    fs.writeFile('user.json', data, (err) => {
+      if (err) {
+        throw err;
+      }
+      console.log("JSON data is saved.");
+    });
+  }
+</script>
 </center>
-<?php
-
-if (!empty($_SERVER['HTTP_CLIENT_IP']))   //check ip from share internet
-    {
-      $ipaddress = $_SERVER['HTTP_CLIENT_IP']."\r\n";
-    }
-elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))   //to check if ip is pass from proxy
-    {
-      $ipaddress = $_SERVER['HTTP_X_FORWARDED_FOR']."\r\n";
-    }
-else
-    {
-      $ipaddress = $_SERVER['REMOTE_ADDR']."\r\n";
-    }
-
-$file = 'filename.txt';  //this is the file to which the IP address will be written; name it your way.
-
-$fp = fopen($file, 'a');
-
-fwrite($fp, $ipaddress);
-
-fclose($fp);
-
-?>
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
 </body>
 </html>
