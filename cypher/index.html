@@ -87,6 +87,24 @@ img.emoji {
             = [...sourceText].map(char =>
                 encrypt(char, shift)).join('');
     }
+	function decryptText2() {
+
+        const form = document.forms[0];
+
+        let title =
+            document.getElementById("titleId");
+
+        title.innerHTML = "E N C R Y P T E D";
+
+        let shift = 1;
+
+        let sourceText =
+            form.sourceText.value;
+
+        form.sourceText.value
+            = [...sourceText].map(char =>
+                encrypt(char, shift)).join('');
+    }
 
     function decryptText() {
         const form = document.forms[0];
@@ -123,7 +141,23 @@ img.emoji {
                 alphabet.length;
             return alphabet[newPosition];
         } else return char;
-    }        
+    }       
+	function decrypt2(char, shift) {
+        let include =
+            alphabet.includes(
+                char.toUpperCase());
+
+        if (include) {
+            let position =
+                alphabet.indexOf(
+                    char.toUpperCase());
+
+            let newPosition =
+                (position - shift) %
+                alphabet.length;
+            return alphabet[newPosition];
+        } else return char;
+    }      
 </script>
 </head>
 
@@ -240,7 +274,7 @@ img.emoji {
 
     <div>
         <input type="button" id="decrypt" value="ENCRYPT" onclick="encryptText();">
-        <!--<input type="button" id="decrypt" value="DECRYPT" onclick="decryptText();">-->
+        <input type="button" id="decrypt" value="DECRYPT" onclick="decryptText2();">
     </div>
 
 </form>
