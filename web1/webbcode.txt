@@ -1,5 +1,5 @@
-<span id="a">code@david</span>:<span id="b">~</span><span id="c">$</span> cd 328884443/<!-- kjsdfhkjdhsfkjdshfkj -->Sobre_Me
-<span id="a">coder@david</span>:<span id="b">~</span><span id="c">$</span> cat <!-- kjsdfhkjdhsfkjdshfkj -->codigoweb.txt<br/><br/>
+<span id="a">code@david</span>:<span id="b">~</span><span id="c">$</span> cd 328884443/<!-- kjsdfhkjdhsfkjdshfkj -->about_me
+<span id="a">coder@david</span>:<span id="b">~</span><span id="c">$</span> cat <!-- kjsdfhkjdhsfkjdshfkj -->webbcode.txt<br/><br/>
 "<span id="k">no -Rosa Parks</span>". <!-- sjkfhskjf -->
 
 hey there! this is my portfolio (?) sort of,<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>I will be posting here my proyects and stuff like that so</p>
