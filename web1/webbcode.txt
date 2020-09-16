@@ -4,9 +4,9 @@
 
 hey there! this is my portfolio (?) sort of,<!-- laglaglaglag -->I will be posting here my proyects and stuff like that so</p>
 <br><br><p>ACTIVE PROJECTS:</p> <!-- ksjdokhdfgdufdfkjhfkjahdfkjhafkjhakf -->
-<p>cypher (beta)<a href="/cypher"> click here</a>.</p><!-- kjdhjhgdgldjhgdwtoiewotwotjdfkjdfffsf -->
-<p>interactive media<a href="/redirect"> click here</a>.</p>
-<p>loops<a href="/loops"> click here</a>.</p>
+<p>cypher (beta)<a href="/cypher"> click here</a>.<!-- kjdhjhgdgldjhgdwtoiewotwotjdfkjdfffsf -->
+<p>interactive media<a href="/redirect"> click here</a>.
+<p>loops<a href="/loops"> click here</a>.
 <p>log<a href="/log"> click here</a>.</p>
 <p><a href="link"></a></p><!-- hsdgfhjfkdjhfkjsdhfkjdshfkjsdhfkjsdhkfjhdskjfhksdjhfkdsj -->
 <p>please check my: <br> <a href="https://instagram.com/32888444d">instagram</a> <br> <a href="https://twitter.com/32888444d">twitter</a> and <br> <a href="https://www.linkedin.com/in/dahega/">linkedin</a>.</p>
