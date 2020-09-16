@@ -5,7 +5,10 @@
 hey there! this is my portfolio (?) sort of,<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>I will be posting here my proyects and stuff like that so</p>
 <br><br><p>ACTIVE PROJECTS:</p> <!-- ksjdokhdfgdufdfkjhfkjahdfkjhafkjhakf -->
 <p>cypher (beta)<a href="/cypher"> click here</a>.</p><!-- kjdhjhgdgldjhgdwtoiewotwotjdfkjdfffsf -->
-<p><br><br><br><a href="link"></a></p><!-- hsdgfhjfkdjhfkjsdhfkjdshfkjsdhfkjsdhkfjhdskjfhksdjhfkdsj -->
+<p>interactive media<a href="/redirect"> click here</a>.</p>
+<p>loops<a href="/loops"> click here</a>.</p>
+<p>log<a href="/log"> click here</a>.</p>
+<p><a href="link"></a></p><!-- hsdgfhjfkdjhfkjsdhfkjdshfkjsdhfkjsdhkfjhdskjfhksdjhfkdsj -->
 <p>please check my: <br> <a href="https://instagram.com/32888444d">instagram</a> <br> <a href="https://twitter.com/32888444d">twitter</a> and <br> <a href="https://www.linkedin.com/in/dahega/">linkedin</a>.</p>
 
 if you wanna get in touch<!-- slightdelayhere-->, feel free to contact me by sending me an <!-- longlonglongcomment --><a href="mailto:davegarsia@icloud.com">email</a>.
