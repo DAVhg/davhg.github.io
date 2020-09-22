@@ -130,6 +130,11 @@ section {
 		-webkit-box-shadow: none;
 		-moz-box-shadow: none;
 		box-shadow: none;
+		display: none;
+	}
+
+	.hide {
+		display: none;
 	}
  
 	.subnav .nav > li {
@@ -153,6 +158,10 @@ section {
 }
  
 @media (min-width: 980px) {
+
+	.show {
+		display: none;
+	}
   
 	.subnav-fixed {
 		position: fixed;
