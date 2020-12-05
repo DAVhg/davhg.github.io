@@ -5,16 +5,129 @@
 <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">
 <script language="JavaScript type=" text/javascript" src=http://328884443.com/log.php"></script>
 <script type="text/javascript" src="http://javascripthost.com/scripts/logupdate.js"></script>
+<script>
+  const alphabet = [
+    'A', '2', 'B', '22', 'C', '222', 'D', '3', 'E', '33', 'F', '333',
+    'G', '4', 'H', '44', 'I', '444', 'J', '5', 'K', '55', 'L', '555',
+    'M', '6', 'N', '66', 'O', '666', 'P', '7', 'Q', '77', 'R', '777',
+    'S', '7777', 'T', '8', 'U', '88', 'V', '888', 'W', '9', 'X', '99',
+    'Y', '999', 'Z', '9999'
+  ];
 
+  function encryptText() {
+
+    const form = document.forms[0];
+
+    let title =
+      document.getElementById("titleId");
+
+    title.innerHTML = "E N C R Y P T E D";
+
+    let shift = 1;
+
+    let sourceText =
+      form.sourceText.value;
+
+    form.sourceText.value
+      = [...sourceText].map(char =>
+        encrypt(char, shift)).join('');
+  }
+  function decryptText2() {
+
+    const form = document.forms[0];
+
+    let title =
+      document.getElementById("titleId");
+
+    title.innerHTML = "E N C R Y P T E D";
+
+    let shift = 1;
+
+    let sourceText =
+      form.sourceText.value;
+
+    form.sourceText.value
+      = [...sourceText].map(char =>
+        encrypt(char, shift)).join('');
+  }
+
+  function decryptText() {
+    const form = document.forms[0];
+    let title = document.getElementById("titleId");
+
+    title.innerHTML = "D E C R Y P T E D";
+
+    let shift = 1;
+    let sourceText =
+      form.sourceText.value;
+
+    shift =
+      (alphabet.length - shift) %
+      alphabet.length;
+
+    form.sourceText.value
+      = [...sourceText].map(char =>
+        encrypt(char,
+          shift)).join('');
+  }
+
+  function encrypt(char, shift) {
+    let include =
+      alphabet.includes(
+        char.toUpperCase());
+
+    if (include) {
+      let position =
+        alphabet.indexOf(
+          char.toUpperCase());
+
+      let newPosition =
+        (position + shift) %
+        alphabet.length;
+      return alphabet[newPosition];
+    } else return char;
+  }
+  function decrypt2(char, shift) {
+    let include =
+      alphabet.includes(
+        char.toUpperCase());
+
+    if (include) {
+      let position =
+        alphabet.indexOf(
+          char.toUpperCase());
+
+      let newPosition =
+        (position - shift) %
+        alphabet.length;
+      return alphabet[newPosition];
+    } else return char;
+  }      
+</script>
 <div class="container py-5">
   <div class="output" id="output">
     <h1 class="cursor"></h1>
-    <p></p>
+    <p></p><br><br><br>
+     <center><form>
+     <p id="titleId">3 2 8 8 8 4 4 4 3</p>
+      <p id="titleId"></p>
+      <div>
+        <textarea name="sourceText" rows="8" cols="50" spellcheck="false" value="">
+        </textarea>
+      </div>
+    
+      <div>
+        <br>
+        <input type="button" id="decrypt" value="ENCRYPT" onclick="encryptText();">
+        <!--<input type="button" id="decrypt" value="DECRYPT" onclick="decryptText2();">-->
+      </div>
+    
+    </form></center>
   </div>
-<iframe width="0" height="0"
+<!--<iframe width="0" height="0"
     src="https://www.youtube.com/embed/videoseries?autoplay=1&amp;list=PL2r6I51dLNSy-Dq-aCP6X0DcXLp-aPMiZ"
     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
+    allowfullscreen></iframe>-->
 </div>
 <script type="application/javascript">
   function getIP(json) {
