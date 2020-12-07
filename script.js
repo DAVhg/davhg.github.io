@@ -7,8 +7,9 @@ var i = 0,
 // Typerwrite text content. Use a pipe to indicate the start of the second line "|".  
 var textArray = [
     "",
-    "||||||||||||||||",
+    "|||||||||",
     "6444 660666062277733 337777 328884443 44337770777337772 427772224442 |||",
+    "3377778666 337777 8866 33662227774447823666777 333 833998666 77773366222444555555666 333 2555466677744486666 78822555444222666, 7777444 33377773327777 777722233777 2226666666 3338866222444666662, 4429999 22255544422255 3366 33555 22666866666 333 44466333666",
     //"A problem has been detected and Windows has been shut down to prevent damage to your computer. | If this is the first time you've seen this stop error screen, restart your computer. if this screen appears again, follow these steps: | Check to make sure any new hardware or software is properly installed. If this is a new installation, ask your hardware or software manufacturer for and Windows updates you might need. | If problems continue, disable or remove any newly installed hardware or software. Disable BIOS memory options such as caching or shadowing. If you need to use Safe Mode to remove or disable components, restart your computer, press F8 to select Advanced Startup Options, and then select Safe Mode. | Technical information: | *** STOP: 0x000000FE(0x00000008, 0x000000006, 0x00000009, 0x847075cc)",
     //"Welcome. | Thanks for checking in. | This web is for personal use and educational purposes only. | I will not be saving any personal information of you as is not required for the website to perform properly. | You will now be redirected to a home page with multiple options and projects that I have been working on for some time. | The web will now start loading.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|  ",
 ];
