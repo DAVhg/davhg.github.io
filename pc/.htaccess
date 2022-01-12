@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Your authorization required message."
-AuthUserFile /pc/.htpasswd
-require valid-user
