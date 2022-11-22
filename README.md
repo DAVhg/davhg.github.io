@@ -1,8 +1,5 @@
-# Terminal Resume 💻
+# My Terminal Resume 💻
 Terminal Resume is a very basic terminal emulator using HTML, CSS and JavaScript to display resume in terminal.<br>
-<b>Demo Link - <a href="https://kraten.github.io" target="_blank">https://kraten.github.io</a></b><br>
-
-<img src="https://github.com/kraten/terminal-resume/blob/master/screen-record.gif?raw=true" width=100%>
 
 ### Features
 - Customized commands to display various resume sections
