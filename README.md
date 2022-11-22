@@ -1,5 +1,5 @@
-# My Terminal Resume 💻
-Terminal Resume is a very basic terminal emulator using HTML, CSS and JavaScript to display resume in terminal.<br>
+# 32888444d Resume 💻
+The resume is a very basic terminal emulator using HTML, CSS and JavaScript to display resume in terminal.<br>
 
 ### Features
 - Customized commands to display various resume sections
